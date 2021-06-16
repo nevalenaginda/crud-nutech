@@ -26,7 +26,7 @@ HOST=
 
 # Database
 DB_HOST=
-DB_user= 
+DB_user=
 DB_Pass=
 DB_NAME=nutech-integrasi
 ```
@@ -43,9 +43,10 @@ Or
 npm start
 ```
 
-### 💭 API Documentation 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/13256965/TzXukecS)
+### 💭 API Documentation
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/13256965/TzeWG7yc)
 
 ### ✍️ Link:
+
 - :white_check_mark: [Frontend](https://github.com/nevalenaginda/crud-nutech/tree/main/frontend)
