@@ -2,7 +2,7 @@ require("dotenv").config();
 
 //Port
 const port = process.env.PORT
-const host = process.env.HOST
+const host = process.env.HOST || 'localhost'
 
 //Package
 const express = require("express")
@@ -36,11 +36,11 @@ app.use("/v1/images", express.static("./public/images"))
 app.use("/*", (req, res) => {
     res.status(404).json({
         status: 404,
-        message: "URL Not Found",
+        message: "URL backend not found. Make sure you have configured it properly.",
     });
 });
 
 
-app.listen(port || 4000, () => {
+app.listen(port || 5000, () => {
     console.log(`Server is running on http://${host}:${port}`);
 })
