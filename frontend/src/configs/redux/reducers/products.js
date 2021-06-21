@@ -1,5 +1,5 @@
 const initialState = {
-    allProducts: null,
+    allProducts: [],
     loading: false,
     error: null
 
@@ -16,6 +16,7 @@ const productsReducer = (state = initialState, action) => {
             return {
                 ...state,
                 allProducts: action.payload,
+                    error: null,
                     loading: false,
             };
         case "GET_ALL_PRODUCTS_FAIL":

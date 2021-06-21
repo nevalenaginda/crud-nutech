@@ -18,7 +18,8 @@ export const getAllProducts = (search = "", limit = "5", page = "1") => (dispatc
             .catch((err) => {
                 console.log(err);
                 dispatch({
-                    type: "GET_ALL_PRODUCTS_FAIL"
+                    type: "GET_ALL_PRODUCTS_FAIL",
+                    error: err.response.data.message
                 })
                 reject(err)
             });

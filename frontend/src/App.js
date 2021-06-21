@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const dispatch = useDispatch();
   const classes = useStyles();
-  const { allProducts } = useSelector((state) => state.products);
+  const { allProducts, error } = useSelector((state) => state.products);
   const [search, setSearch] = useState("");
   const [rangeLimit] = useState(["5", "10", "15", "20"]);
   const [limit, setLimit] = useState(rangeLimit[0]);
@@ -100,7 +100,11 @@ function App() {
           Tambah Produk
         </button>
       </div>
-      <Tabel listProducts={allProducts} />
+      {error ? (
+        <div className="text-center fw-bold my-5">Error: {error}</div>
+      ) : (
+        <Tabel listProducts={allProducts} />
+      )}
       <div className="d-flex justify-content-end mb-5">
         <div className={classes.root}>
           <Pagination
