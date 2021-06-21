@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.4065b2c5.chunk.js",
+    "main.js.map": "/static/js/main.4065b2c5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.22ca72af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.22ca72af.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.3aa3c821.chunk.js": "/static/js/2.3aa3c821.chunk.js",
+    "static/js/2.3aa3c821.chunk.js.map": "/static/js/2.3aa3c821.chunk.js.map",
+    "static/js/3.8460e997.chunk.js": "/static/js/3.8460e997.chunk.js",
+    "static/js/3.8460e997.chunk.js.map": "/static/js/3.8460e997.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.3aa3c821.chunk.js.LICENSE.txt": "/static/js/2.3aa3c821.chunk.js.LICENSE.txt",
+    "static/media/Logo-Nutech.833ed8df.png": "/static/media/Logo-Nutech.833ed8df.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22ca72af.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.3aa3c821.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.4065b2c5.chunk.js"
+  ]
+}
